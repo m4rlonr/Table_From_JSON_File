@@ -41,5 +41,4 @@ function lerdados() {
 
 }
 
-//Marlon Rodrigues - Graduando de Ciência da Computação 
-//Orientações sobre pesquisas e funções   Frank Willian - Graduado em Ciência da computação e Mestre
+//Marlon Rodrigues - Graduando de Ciência da Computação - Barra do Bugres/MT

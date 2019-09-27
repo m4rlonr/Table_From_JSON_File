@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabela</title>
+
+    <!--Link Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+
+<body class="table table-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="text-center">
+                    <h1>Tabelas API</h1>
+                </header>
+
+                <label for="avatar">Selecione o arquivo:</label>
+                <input class="btn btn-dark" onchange="lerdados();" type="file" id="entrada" name="avatar"
+                    accept="*.json">
+
+                <!--Tabela-->
+                <table id="tabela" class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Fipe-Name</th>
+                            <th>Order</th>
+                            <th>Key</th>
+                            <th>ID</th>
+                        </tr>
+                    </thead>
+
+                    <!--Corpo da tabela feito pelo javascript
+                    <tbody table-borderless>
+                        <tr>
+                            <td id="name">a</td>
+                            <td id="fname">b</td>
+                            <td id="order">c</td>
+                            <td id="key">d</td>
+                            <td id="idc">e</td>
+                        </tr>
+                    </tbody>
+                    -->
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            <!--Links Javascript e jquery Bootstrap-->
+            <script src="jquery.js"></script>
+            <script src="bootstrap.bundle.min.js"></script>
+            <script src="script.js"></script>
+        </footer>
+    </div>
+</body>
+
+</html>
